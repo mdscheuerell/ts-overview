@@ -48,36 +48,6 @@ y_i = \underbrace{\mu}_{\text{fixed}} + \underbrace{e_i}_{\text{random}}
 $$
 
 
-## A very simple model
-
-This can also be seen by rewriting the model 
-
-$$
-y_i = \mu + e_i ~ \text{with} ~ e_i \sim \text{N}(0,\sigma^2)
-$$
-
-as
-
-$$
-y_i \sim \text{N}(\mu,\sigma^2)
-$$
-
-
-## Simple linear regression
-
-We can expand the deterministic part of the model, as with linear regression
-
-$$
-y_i = \underbrace{\alpha + \beta x_i}_{\text{mean}} + e_i ~ \text{with} ~ e_i \sim \text{N}(0,\sigma^2)
-$$
-
-so
-
-$$
-y_i \sim \text{N}(\alpha + \beta x_i,\sigma^2)
-$$
-
-
 ## A simple time series model
 
 Consider a simple model with a mean $\mu$ plus white noise
