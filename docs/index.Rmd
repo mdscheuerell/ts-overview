@@ -1,0 +1,117 @@
+---
+title: "Time Series Analysis Training Session"
+subtitle: "Protected Species Assessment Workshop (PSAW) II"
+output:
+  html_document:
+    fig_caption: yes
+    theme: cerulean
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+
+```{r set_options, echo=FALSE, cache=FALSE}
+options(width = 100)
+```
+
+***
+
+## Background
+
+These are materials for the Time Series Analysis Training Session offered as part of NMFS' Office of Science and Technology's [Protected Species Assessment Workshop](https://www.fisheries.noaa.gov/event/protected-species-assessment-workshop-psaw-ii) in La Jolla, CA from February 11-14, 2019.
+
+<br>
+
+## Instructor
+
+[__Mark Scheuerell__](https://faculty.washington.edu/scheuerl/)  
+_Fish Ecology Division, Northwest Fisheries Science Center, Seattle WA USA_
+
+<br>
+
+## Date & Location
+
+Monday, February 11, 2019
+
+[Eckart Sea Cave](figs/eckart.png), Scripps Institute of Oceanography, La Jolla, CA 
+
+<br>
+
+## Schedule & Topics
+
+Links are included after each topic for both the knitted slide deck and the RMarkdown code used to generate them.
+
+### Session 1: Introduction to time series analysis
+
+__8:30 - 10:00__ 
+
+  * Characteristics, autocorrelation, cross-correlation | [slides](session_1/lec_01_intro.html) | [Rmd](session_1/lec_01_intro.Rmd)  
+  
+  * White noise, random walks and biased random walks | [slides](session_1/lec_02_WN_RW.html) | [Rmd](session_1/lec_02_WN_RW.Rmd)  
+  
+  * AR(_p_), MA(_q_), ARMA(_p_,_q_) models | [slides](session_1/lec_03_ARMA_models.html) | [Rmd](session_1/lec_03_ARMA_models.Rmd)  
+
+***
+
+#### Break
+
+__10:00 - 10:15__
+
+***
+
+### Session 2: Introduction to state-space models
+
+__10:15 - 11:15__
+
+  * Univariate state-space models | [slides](session_2/lec_04_SSM.html) | [Rmd](session_2/lec_04_SSM.Rmd)   
+  
+  * Multivariate state-space models | [slides](session_2/lec_05_MSSM.html) | [Rmd](session_2/lec_05_MSSM.Rmd)  
+  
+***
+
+#### Break
+
+__11:15 - 11:30__
+
+***
+
+### Session 3: Additional state-space models
+
+__11:30 - 12:30__
+
+  * Regression with auto-correlated errors | [slides](session_3/lec_06_regr_ar1.html) | [Rmd](session_3/lec_06_regr_ar1.Rmd)
+  
+  * Dynamic Factor Analysis (DFA) | [slides](session_3/lec_07_DFA.html) | [Rmd](session_3/lec_07_DFA.Rmd)
+  
+  * Dynamic Linear Models (DLMs) | [slides](session_3/lec_08_DLM.html) | [Rmd](session_3/lec_08_DLM.Rmd)
+  
+***
+
+<br>
+
+## Additional information
+
+Here is some additional information on the following topics:
+
+### Background material
+
+ * Backshift and Difference operators | [slides](additional/ts_operators.html) | [Rmd](docs/additional/ts_operators.Rmd)
+ 
+ * Identifying stationary AR(_p_) models | [slides](additional/stationary_AR.html) | [Rmd](docs/additional/stationary_AR.Rmd)
+ 
+ * Invertible MA(_q_) models | [slides](additional/invertible_MA.html) | [Rmd](docs/additional/invertible_MA.Rmd)
+ 
+### Other resources
+
+ * [Applied Time Series Analysis at the NWFSC](https://nwfsc-timeseries.github.io/)
+
+ * [Lab book with computer exercises](https://nwfsc-timeseries.github.io/atsa-labs/)
+ 
+ * The [__Stan__](https://mc-stan.org/) language for fitting Bayesian models 
+ 
+ * The [__greta__](https://greta-stats.org/) language for fitting Bayesian models
+ 
+ * [Fitting DFA models with __greta__](https://mdscheuerell.github.io/gretaDFA/)
+
+ 
+
