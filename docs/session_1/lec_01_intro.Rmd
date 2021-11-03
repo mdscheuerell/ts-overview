@@ -1,8 +1,6 @@
 ---
 title: "Correlation & cross-correlation"
-subtitle: "PSAW II – Time Series Analysis Training Session"
 author: "Mark Scheuerell"
-date: "11 Feb 2019"
 output:
   ioslides_presentation:
     css: lecture_slides.css
@@ -610,7 +608,7 @@ ccf(log(lynx), log(suns), ylab="Cross-correlation", main="")
 
 ## Cross-correlation in __R__
 
-We often think of correlation in terms of causation `r icon::fa("meh-o")`
+We often think of correlation in terms of causation
 
 A caution about estimating the ccf in __R__:
 
